@@ -10,7 +10,7 @@ import esc from 'url-escape-tag';
 import manifest from '../package';
 import parsePhone from './parsers/phone-parser';
 import parseResponse from './parsers/response-parser';
-import request from 'request';
+import request from './logging/request';
 import { assert, Assert as is, validate } from './validator';
 
 /**
