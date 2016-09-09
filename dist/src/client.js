@@ -37,7 +37,7 @@ var _responseParser = require('./parsers/response-parser');
 
 var _responseParser2 = _interopRequireDefault(_responseParser);
 
-var _request = require('request');
+var _request = require('./logging/request');
 
 var _request2 = _interopRequireDefault(_request);
 

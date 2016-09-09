@@ -1,5 +1,14 @@
 # Changelog
 
+## [v1.0.6](https://github.com/seegno/authy-client/tree/v1.0.6) (2016-09-09)
+[Full Changelog](https://github.com/seegno/authy-client/compare/v1.0.5...v1.0.6)
+
+**Merged pull requests:**
+
+- Update JSCS@3.0.7 [\#16](https://github.com/seegno/authy-client/pull/16) ([fixe](https://github.com/fixe))
+- Fix tests not passing [\#15](https://github.com/seegno/authy-client/pull/15) ([pedrobranco](https://github.com/pedrobranco))
+- Fix request-debug logging [\#13](https://github.com/seegno/authy-client/pull/13) ([pedrobranco](https://github.com/pedrobranco))
+
 ## [v1.0.5](https://github.com/seegno/authy-client/tree/v1.0.5) (2016-08-01)
 [Full Changelog](https://github.com/seegno/authy-client/compare/v1.0.4...v1.0.5)
 
