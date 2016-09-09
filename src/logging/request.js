@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
+import Request from 'request';
 import debug from 'request-debug';
 import debugnyan from './debugnyan';
-import request from 'request';
 
 /**
  * Instances.
@@ -13,6 +13,7 @@ import request from 'request';
 
 const log = debugnyan('authy:request');
 const replacement = /(api_key=)([^&])*/;
+const request = Request.defaults({});
 
 /**
  * Customize log handler.
@@ -29,3 +30,9 @@ debug(request, (type, data) => {
 
   log.debug({ [type]: data, type }, message);
 });
+
+/**
+ * Exports.
+ */
+
+export default request;
